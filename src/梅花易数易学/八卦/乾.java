@@ -1,9 +1,22 @@
 package 梅花易数易学.八卦;
 
+import static Print.Print.println;
+
 /**
  * Created by zyf on 2016/9/9.
  */
-public class 乾 extends 卦 {
+public class 乾 extends 卦 implements 卦属性{
+    public 乾() {
+        天=0;
+        人=0;
+        地 =0;
+    }
+
+    @Override
+    public int 先天卦数() {
+        return 1;
+    }
+
     @Override
     public String 万物类属() {
         return null;
@@ -24,4 +37,10 @@ public class 乾 extends 卦 {
         return null;
     }
 
+    @Override
+    public void 卦象() {
+        println("-------");
+        println("-------");
+        println("-------");
+    }
 }

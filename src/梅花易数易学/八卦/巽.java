@@ -4,6 +4,17 @@ package 梅花易数易学.八卦;
  * Created by zyf on 2016/9/9.
  */
 public class 巽 extends 卦 {
+    public 巽() {
+        天=0;
+        人=0;
+        地 =1;
+    }
+
+    @Override
+    public int 先天卦数() {
+        return 5;
+    }
+
     @Override
     public String 方位() {
         return null;
