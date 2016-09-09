@@ -5,4 +5,5 @@ package 梅花易数易学.八卦;
  */
 public interface 卦属性 {
     public void 卦象();
+
 }

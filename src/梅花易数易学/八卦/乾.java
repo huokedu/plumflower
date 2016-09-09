@@ -42,5 +42,6 @@ public class 乾 extends 卦 implements 卦属性{
         println("-------");
         println("-------");
         println("-------");
+
     }
 }
