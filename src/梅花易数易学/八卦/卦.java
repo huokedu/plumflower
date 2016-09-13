@@ -9,6 +9,7 @@ public abstract class 卦 {
     public abstract String 方位();
     public abstract String 五行();
     public abstract String 旺季();
+    public abstract String 衰季();
     public abstract String 万物类属();
 
 }

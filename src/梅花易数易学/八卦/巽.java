@@ -1,5 +1,7 @@
 package 梅花易数易学.八卦;
 
+import 梅花易数易学.自然属性.*;
+
 import static Print.Print.println;
 
 /**
@@ -19,22 +21,27 @@ public class 巽 extends 卦 implements 卦属性{
 
     @Override
     public String 方位() {
-        return null;
+        return direction.东南.toString();
     }
 
     @Override
     public String 五行() {
-        return null;
+        return 五行.木.toString();
     }
 
     @Override
     public String 旺季() {
-        return null;
+        return 四季.春.toString();
+    }
+
+    @Override
+    public String 衰季() {
+        return 四季.秋.toString();
     }
 
     @Override
     public String 万物类属() {
-        return null;
+        return 万物类属.巽.getString();
     }
 
     @Override
@@ -42,5 +49,6 @@ public class 巽 extends 卦 implements 卦属性{
         println("-------");
         println("-------");
         println("--- ---");
+        println(象例.巽下断.toString());
     }
 }
