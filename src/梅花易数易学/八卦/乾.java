@@ -52,8 +52,9 @@ public class 乾 extends 卦 implements 卦属性{
         println(象例.乾三连.toString());
 
     }
-    public static void main(String[] args){
-        println(direction.东.toString());
-        println(万物类属.巽.getString());
+
+    @Override
+    public String toString() {
+        return 象例.乾三连.toString();
     }
 }

@@ -51,4 +51,9 @@ public class 离 extends 卦 implements 卦属性{
         println("-------");
         println(象例.离中虚.toString());
     }
+
+    @Override
+    public String toString() {
+        return 象例.离中虚.toString();
+    }
 }
